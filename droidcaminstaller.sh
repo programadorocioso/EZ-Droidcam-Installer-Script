@@ -3,7 +3,7 @@ read senha_sudo
 printf "Mudando para a pasta tmp\n"
 cd /tmp/
 printf "Baixando o Droidcam\n"
-wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.0.0.zip
+wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.1.3.zip
 printf "Baixado\nExtraindo...\n"
 unzip droidcam_latest.zip -d droidcam
 printf "Extraído\nEntrando na pasta droidcam\n"
